@@ -1,5 +1,3 @@
-def reverse_string(string):
-
-    reversed_string = string[::-1]
-    
-    return reversed_string
+def convert_to_celsius(fahrenheit):
+    celsius = (fahrenheit - 32) * 5/9
+    return celsius
