@@ -1,4 +1,4 @@
-<h1>PTYTHON BASICS</h1>
+<h1>PYTHON BASICS</h1>
 
 <p>Directory for beginner python projects</p>
 
