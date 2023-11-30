@@ -1,3 +1,3 @@
-def add_two_num(a,b):
+def add(a,b):
     sum=a+b
     return sum
