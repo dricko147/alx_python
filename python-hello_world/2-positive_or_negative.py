@@ -7,3 +7,4 @@ elif number == 0:
    print("Zero")
 else:
    print("Negative number")
+   #new line
