@@ -1,15 +1,12 @@
 def print_matrix_integer(matrix=[[]]):
-    def print_matrix_integer(matrix):
-      for row in matrix:
-        for i, number in enumerate(row):
-            if i == len(row) -1:
-                print("{:d}".format(number))
+    def print_matrix_integer(matrix=[[]]):
+     for i in matrix:
+        for j, num in enumerate(i):
+            if j == len(i) - 1:
+                print("{:d}".format(num), end="")
             else:
-                print("{:d}".format(number), end=' ')
-                  
-def print_matrix_integer(matrix):
-            for row in matrix:
-                print(*row)
+                print("{:d} ".format(num), end="")
+                
 matrix = [
     [1, 2, 3],
     [4, 5, 6],
