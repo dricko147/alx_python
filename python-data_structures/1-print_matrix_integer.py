@@ -1,15 +1,15 @@
 def print_matrix_integer(matrix=[[]]):
-    def print_matrix_with_indices(matrix):
-    # Loop over each row
-      for i in range(len(matrix)):
-        # Loop over each column in the current row
-        for j in range(len(matrix[i])):
-            # Print element at row i, column j
-            print(matrix[i][j], end=' ')
-        # Print a new line after each row
-        print()
- 
- 
+    def print_matrix_integer(matrix):
+      for row in matrix:
+        for i, number in enumerate(row):
+            if i == len(row) -1:
+                print("{:d}".format(number))
+            else:
+                print("{:d}".format(number), end=' ')
+                  
+def print_matrix_integer(matrix):
+            for row in matrix:
+                print(*row)
 matrix = [
     [1, 2, 3],
     [4, 5, 6],
