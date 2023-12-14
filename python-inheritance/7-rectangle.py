@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # 7-rectangle.py
 # dricko147
+"""Import '5-base_geometry' File"""
 BaseGeometry = __import__('5-base_geometry').BaseGeometry
 
 class Rectangle(BaseGeometry):
