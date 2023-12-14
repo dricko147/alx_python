@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # 1-square.py
 # dricko147
-"""Define a class Square."""
+"""Define a Square Class"""
 
 
 class Square:
@@ -14,4 +14,5 @@ class Square:
             size (int): The size of the new square.
         """
         self.__size = size
+
         
