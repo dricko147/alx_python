@@ -3,7 +3,6 @@
 # Usage: ./1-filter_states.py <mysql username> \
 #                             <mysql password> \
 #                             <database name>
-import sys
 import MySQLdb
 
 if __name__ == "__main__":
